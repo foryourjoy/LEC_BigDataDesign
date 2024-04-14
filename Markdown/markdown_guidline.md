@@ -2,12 +2,16 @@
 - Written by: Keungoui Kim
 - This page contains basic markdown expressions.
 
+
+
+
 ----------------------------------------
 
 Comments... <!-- Comments... -->
 
 ----------------------------------------
-Headings
+
+<!-- Headings... -->
 # This is an H1
 
 ## This is an H2
@@ -24,7 +28,9 @@ Headings
 
 ## **Line breaking**
 
-My name is kim. <br> Hi.
+My name is kim. <br> Hi. <br>
+My name is Kim.
+Hi.
 
 ----------------------------------------
 
@@ -69,25 +75,52 @@ _Italic expression_
 
 ## **Code** 
 
-`import pandas as pd`
-
-`library(dplyr)`
+`import pandas as pd` 
 
 ```
 import pandas as pd
 import numpy as np
 import pytorch
 
-library(dplyr)
-library(tidyr)
+pd.DataFrame([1,2,3,4])
 ```
+
+```python
+import pandas as pd
+import numpy as np
+import pytorch
+
+pd.DataFrame([1,2,3,4])
+```
+
+```html
+<html>
+<head></head>
+<body><p>Hi My name is Kim.</p></body>
+</html>
+```
+
 
 ----------------------------------------
 
 ## **Table** 
 
-| StudentId | Name | Age |
-| --- | --- | --- |
+| StudentId | YourName | YouAge |
+| -- | -- | -- |
+| 22202020 | Kim | 23 |
+| 22202021 | Choi | 21 |
+| 22202022 | Lee | 18 |
+| 22202023 | Han | 22 |
+
+| StudentId | YourName | YourAge |
+| --: | --: | --: |
+| 22202020 | Kim | 23 |
+| 22202021 | Choi | 21 |
+| 22202022 | Lee | 18 |
+| 22202023 | Han | 22 |
+
+| StudentId | YourName | YourAge |
+| :--: | :--: | :--: |
 | 22202020 | Kim | 23 |
 | 22202021 | Choi | 21 |
 | 22202022 | Lee | 18 |
