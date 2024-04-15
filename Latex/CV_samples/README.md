@@ -1,1 +1,1 @@
-- Edite CV LaTex file and upload here.
+- Edit CV LaTex file (BigDataDesign_CV.tex) and upload .pdf file here.
