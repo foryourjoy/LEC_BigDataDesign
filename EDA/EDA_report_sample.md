@@ -5,6 +5,7 @@
 ### - 2nd Major:
 <br>
 
+
 <i>Brief summary of your proposed project idea. </i>
 
 <br><br>
